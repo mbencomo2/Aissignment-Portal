@@ -2,4 +2,4 @@
 const cdate = new Date()
 const year = cdate.getFullYear()
 
-document.getElementById("year").textContent = year
+document.querySelector("footer>h2>span").textContent = year
