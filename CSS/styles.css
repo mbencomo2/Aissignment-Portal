@@ -4,6 +4,8 @@
   box-sizing: border-box;
   --paragraph-font: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   --header-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  --primary-color: #8A2BE2;
+  --secondary-color: #EAC435;
 }
 
 body {
@@ -45,8 +47,8 @@ footer p {
 }
 
 .fancy {
-  color: white;
-  background-color: blueviolet;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
   margin: 50px auto;
   padding: 20px;
   border-radius: 20px;
@@ -73,7 +75,7 @@ footer p {
 }
 
 #update {
-  color: yellow;
+  color: var(--secondary-color);
 }
 
 #list ul li {
