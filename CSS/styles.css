@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Rajdhani:wght@700&family=Voces&display=swap');
+
 * {
   box-sizing: border-box;
   --paragraph-font: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   --header-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 
 body {
@@ -10,13 +11,16 @@ body {
   margin: 0 auto;
 }
 
-.fancy {
-  color: white;
-  background-color: blueviolet;
-  margin: 50px auto;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: -5px 5px 20px #888888, 5px -5px 20px #888888;
+h1 {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Voces', cursive;
+}
+
+p, li {
+  font-family: 'PT Sans Caption', sans-serif;
 }
 
 header {
@@ -27,7 +31,6 @@ header {
 }
 
 main {
-  font-family: var(--paragraph-font);
   font-size: 16pt;
 }
 
@@ -39,6 +42,15 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+.fancy {
+  color: white;
+  background-color: blueviolet;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: -5px 5px 20px #888888, 5px -5px 20px #888888;
 }
 
 .clearfix::after {
@@ -54,12 +66,10 @@ footer p {
 #name {
   margin: auto 20px;
   font-size: 48pt;
-  font-family: var(--header-font);
 }
 
 #copyright {
   font-size: 24pt;
-  font-family: var(--header-font);
 }
 
 #update {
