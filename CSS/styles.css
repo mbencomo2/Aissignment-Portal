@@ -25,6 +25,16 @@ p, li {
   font-family: 'PT Sans Caption', sans-serif;
 }
 
+a {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  text-decoration: none;
+  padding: .5rem;
+  margin: .5rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -79,5 +89,5 @@ footer p {
 }
 
 #list ul li {
-  margin-top: 10px;
+  margin-top: 20px;
 }
